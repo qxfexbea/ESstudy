@@ -15,6 +15,8 @@
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
+        <!--            <java.version>1.8</java.version>-->
+                    <elasticsearch.version>7.12.1</elasticsearch.version>
     </properties>
     <dependencies>
         <dependency>
@@ -52,7 +54,17 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.71</version>
+
         </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+            <version>7.12.1</version>
+        </dependency>
+<!--        <properties>-->
+<!--            <java.version>1.8</java.version>-->
+<!--            <elasticsearch.version>7.12.1</elasticsearch.version>-->
+<!--        </properties>-->
 		<dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
